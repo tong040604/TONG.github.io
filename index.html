@@ -1,47 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>My Website</title>
+  <meta charset="UTF-8">
+  <title>TONG LUOFEI</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>My Website</header>
-  
+
+  <!-- Header -->
+  <header>
+    <h1>TONG LUOFEI</h1>
+  </header>
+
+  <!-- Navbar -->
   <nav>
-    <a href="index.html">Home</a>
-    <a href="portfolio.html">Portfolio</a>
-    <a href="trivia.html">Trivia</a>
+    <a href="index.html">HOME</a> |
+    <a href="portfolio.html">PORTFOLIO</a> |
+    <a href="trivia.html">TRIVIA</a>
   </nav>
 
-  <div class="container">
-    <aside class="left">
-      <ul>
-        <li><a href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
-        <li><a href="https://developer.mozilla.org/" target="_blank">MDN</a></li>
-      </ul>
-    </aside>
+  <!-- Main table layout -->
+  <table class="main-table">
+    <tr>
+      <!-- Left sidebar -->
+      <td class="sidebar">
+        <h3>Useful Links</h3>
+        <ul>
+          <li><a href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
+          <li><a href="https://developer.mozilla.org" target="_blank">MDN Docs</a></li>
+        </ul>
+      </td>
 
-    <main>
-      <h2>About Me</h2>
-      <p>我是一个喜欢编程与创作的学生……（请自行写200字英文介绍）</p>
-      <img src="assets/me.jpg" alt="My Photo" width="200">
-    </main>
+      <!-- Main content -->
+      <td class="content">
+        <h2>About Me</h2>
+        <p>
+          I am Tong Luofei, a third-year university student majoring in computer science. 
+          I have always been fascinated by how technology shapes our world and how websites connect people globally. 
+          This website is a small reflection of my passion for web development, where I try to combine design and functionality.
+          I enjoy learning programming languages such as HTML, CSS, and JavaScript, and I am always eager to improve my skills through hands-on projects.
+          In my free time, I love reading, drawing, and trying out new technologies. I hope you enjoy exploring my website!
+        </p>
+        <img src="https://via.placeholder.com/200" alt="My photo">
+      </td>
 
-    <aside class="right">
-      <form>
-        <label>Name:</label><br><input type="text"><br>
-        <label>Email:</label><br><input type="email"><br>
-        <label>Message:</label><br><textarea></textarea><br>
-        <button type="submit">Submit</button>
-        <button type="reset">Clear</button>
-      </form>
-    </aside>
-  </div>
+      <!-- Right sidebar (Contact Me) -->
+      <td class="sidebar">
+        <h3>Contact Me</h3>
+        <form>
+          Name:<br><input type="text"><br>
+          Email:<br><input type="email"><br>
+          Message:<br><textarea></textarea><br>
+          <button type="submit">Submit</button>
+          <button type="reset">Clear</button>
+        </form>
+      </td>
+    </tr>
+  </table>
 
+  <!-- Footer -->
   <footer>
-    Created: July 2025 | <a href="https://myblog.example.com" target="_blank">My Blog</a>
+    Created July 2025 | <a href="#">My Blog</a>
   </footer>
+
 </body>
 </html>
+
